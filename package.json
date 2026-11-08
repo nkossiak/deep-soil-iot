@@ -2,6 +2,9 @@
   "name": "deep-soil-iot",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=22"
+  },
   "description": "University of Idaho deep-soil IoT capstone: web dashboard, Supabase backend, and ingestion API",
   "scripts": {
     "db:start": "supabase start",
@@ -9,6 +12,7 @@
     "db:status": "supabase status"
   },
   "devDependencies": {
-    "supabase": "^3.0.0"
+    "supabase": "^3.0.0",
+    "wrangler": "^4.158.0"
   }
 }
