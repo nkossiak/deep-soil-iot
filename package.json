@@ -1,0 +1,14 @@
+{
+  "name": "deep-soil-iot",
+  "version": "0.0.0",
+  "private": true,
+  "description": "University of Idaho deep-soil IoT capstone: web dashboard, Supabase backend, and ingestion API",
+  "scripts": {
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:status": "supabase status"
+  },
+  "devDependencies": {
+    "supabase": "^3.0.0"
+  }
+}
